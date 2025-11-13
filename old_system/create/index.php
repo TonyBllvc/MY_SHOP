@@ -85,7 +85,7 @@
              For best practice and convention dictate using the proper case: Location
              NOTE: header() function will still work with lowercase location, since header names are case-insensitive per the HTTP spec (RFC 7230).
             **/
-             header("Location: /my_shop/index.php"); 
+             header("Location: /my_shop/old_system/index.php"); 
             exit; // exit execution
             
         } while (false);
@@ -153,7 +153,7 @@
                     <input type="submit" value="Submit" class="btn btn-primary">
                 </div>
                 <div class='col-sm-3 d-grid'>
-                    <a href="/my_shop/index.php" class="btn btn-outline-primary" role='button' > Cancel </a>
+                    <a href="/my_shop/old_system/index.php" class="btn btn-outline-primary" role='button' > Cancel </a>
                 </div>
             </div>
 

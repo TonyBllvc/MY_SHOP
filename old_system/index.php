@@ -13,7 +13,7 @@
         <h2>
             List of Clients
         </h2>
-        <a href="/my_shop/modern/create.php" role="button" class="btn btn-primary"> 
+        <a href="/my_shop/old_system/create/index.php" role="button" class="btn btn-primary"> 
             New Client
         </a>
 
@@ -68,8 +68,8 @@
                                 <td>" . htmlspecialchars($row['address']) . "</td>
                                 <td>" . htmlspecialchars($row['created_at']) . "</td>
                                 <td>
-                                    <a href='/my_shop/edit.php?id=" . htmlspecialchars($row['id']) . "' class='btn btn-primary btn-sm'>Edit</a>
-                                    <a href='/my_shop/delete.php?id=" . htmlspecialchars($row['id']) . "' class='btn btn-danger btn-sm'>Delete</a>
+                                    <a href='/my_shop/old_system/edit/index.php?id=" . htmlspecialchars($row['id']) . "' class='btn btn-primary btn-sm'>Edit</a>
+                                    <a href='/my_shop/old_system/delete/index.php?id=" . htmlspecialchars($row['id']) . "' class='btn btn-danger btn-sm'>Delete</a>
                                 </td>
                             </tr>
                             ";
